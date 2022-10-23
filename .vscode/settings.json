@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Export/OneCharConverter_lib/dom4j-2.1.3.jar",
+        "Export/OneCharConverter_lib/jaxen-1.1.6.jar"
+    ]
+}

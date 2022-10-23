@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correspondenceList>
+
+	<List name="test">
+
+		<character char="a">
+			<correspondence>"１"</correspondence>
+		</character>
+
+		<character char="b">
+			<correspondence>"２"</correspondence>
+		</character>
+
+		<character char="c">
+			<correspondence>"３"</correspondence>
+		</character>
+
+	</List>
+
+	<List name="test2">
+
+		<character char="a">
+			<correspondence>"あ"</correspondence>
+		</character>
+
+		<character char="b">
+			<correspondence>"い"</correspondence>
+		</character>
+
+		<character char="c">
+			<correspondence>"う"</correspondence>
+		</character>
+
+	</List>
+
+</correspondenceList>
