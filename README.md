@@ -1,11 +1,12 @@
 # OneCharConverter
 
-・Process<br>
+・Abstract<br>
 The typed string is converted to the corresponding other string.<br>
 Character conversion correspondence table can be set in CorrespondenceList.xml.<br>
 Multiple conversion correspondence tables can be prepared in advance in CorrespondenceList.xml.<br>
 When using it, typing the List name attribute to decide which conversion correspondence table to use.<br>
-write path of CorrespondenceList.xml in OneCharConverter.properties and put it in the same folder as jar.<br>
+As preparation, please change the description of the path of CorrespondenceList.xml in OneCharConverter.properties.<br>
+And please load the two libraries (dom4j-2.1.3.jar,jaxen-1.1.6.jar).<br>
 
 ・処理内容<br>
 入力した文字列を一文字ずつ解析して対応する他の文字に変換します。<br>
@@ -20,6 +21,13 @@ OneCharConverter.properties内にCorrespondenceList.xmlのパスを記載しjar�
 属性:charが一致するものが見つかった場合は要素:correspondenceの値を戻す。<br>
 見つからなかった場合は元の文字のまま。<br>
 上記の各文字を結合しコンソールに表示する。<br>
+
+・前提
+（１）以下２ファイルのimportが必要になります。
+・dom4j-2.1.3.jar
+・jaxen-1.1.6.jar
+（２）OneCharConverter.propertiesのCorrespondenceListの値は、
+　　　CorrespondenceList.xmlを格納したパスに記載変更してください。
 
 ex)<br>
 java -jar .\OneCharConverter.jar<br>
